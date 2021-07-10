@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "lite-server",
-    "tsc": "tsc -w"
+    "tsc": "ntsc -w"
   },
   "keywords": [
     "typescript",
@@ -18,7 +18,7 @@
     "lite-server": "^2.5.4"
   },
   "dependencies": {
-    "tsc": "^2.0.3",
+    "ntypescript": "1.201706190042.1",
     "typescript": "^4.3.5"
   }
 }

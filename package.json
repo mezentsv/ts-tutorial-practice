@@ -5,7 +5,8 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "lite-server",
+    "start": "webpack serve --open",
+    "build": "webpack --config webpack.config.prod.js",
     "tsc": "ntsc -w"
   },
   "keywords": [
@@ -15,7 +16,12 @@
   "author": "Archie Petsora",
   "license": "ISC",
   "devDependencies": {
-    "lite-server": "^2.5.4"
+    "clean-webpack-plugin": "^4.0.0-alpha.0",
+    "lite-server": "^2.5.4",
+    "ts-loader": "^9.2.3",
+    "webpack": "^5.44.0",
+    "webpack-cli": "^4.7.2",
+    "webpack-dev-server": "^3.11.2"
   },
   "dependencies": {
     "ntypescript": "1.201706190042.1",
